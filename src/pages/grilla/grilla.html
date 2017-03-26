@@ -7,11 +7,36 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-left></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <div class="CajaInicio animated bounceInRight">
+							<h1>Listado de personas</h1>
+							<!-- id="listaPersonas" -->
+								
+								<table class='table table-hover table-responsive' id="listaPersonas">
+									<thead>
+										<tr>
+											<th>  Foto   </th>				
+											<th>  Nombre     </th>
+											<th>  Apellido   </th>
+											<th>  Correo        </th>
+											<th>  BORRAR     </th>
+											<th>  MODIFICAR  </th>
+										</tr> 
+									</thead>
+									
+									<tr>
+
+										<td></td>
+							
+										<td></td>
+										<td></td>
+										<td></td>
+
+										<td><button class='btn btn-danger' name='Borrar' ng-click="Borrar(persona)">   <span class='glyphicon glyphicon-remove-circle'>&nbsp;</span>Borrar</button></td>
+										
+										<td><button class='btn btn-warning' name='Modificar' ng-click="Modificar(persona)"><span class='glyphicon glyphicon-edit'>&nbsp;</span>Modificar</button></td>
+															
+									</tr>
+										
+								</table>
+							</div>
 </ion-content>

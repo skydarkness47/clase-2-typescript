@@ -7,9 +7,10 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'grilla.html'
 })
 export class Grilla {
-
   constructor(public navCtrl: NavController) {
 
   }
+
+
 
 }
